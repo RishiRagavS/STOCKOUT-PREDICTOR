@@ -1,0 +1,27 @@
+venv/
+# Environment
+.env
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+*.so
+
+# Data (too large for git)
+data/raw/
+data/processed/
+
+# Models
+saved_models/*.pkl
+saved_models/*.json
+saved_models/*.txt
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
